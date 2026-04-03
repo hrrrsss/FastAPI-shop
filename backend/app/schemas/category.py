@@ -16,4 +16,4 @@ class CategoryResponse(CategoryBase):
 
     class Config:
         # позволяет создавать схему напрямую из модели
-        form_attributes = True
+        from_attributes = True
